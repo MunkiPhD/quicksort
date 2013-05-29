@@ -1,9 +1,9 @@
 require_relative 'quicksort'
 
 describe QuickSort do
-	@qs = QuickSort.new
 
 	before :each do
+		@qs = QuickSort.new
 		@array = [5, 4, 1, 7, 8, 2, 2, 0, 1, 13, 5]
 		@sorted = @array.sort
 	end
